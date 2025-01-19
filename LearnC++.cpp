@@ -17,3 +17,7 @@ int main() {
 		cout << "You are not an adult. You're still a kid";
 	}
 }
+
+
+// g++ LearnC++.cpp -o LearnC++    
+// .\LearnC++
