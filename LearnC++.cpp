@@ -4,17 +4,33 @@
 using namespace std;
 
 int main() {
-	cout << "Please enter your age: ";
+	cout << "Please enter your grade: ";
 	int x;
 	cin >> x;
 
-	if (x >= 18)
+	if (x < 25)
 	{
-		cout << "You are an adult";
+		cout << "You got F grade";
 	}
-	else 
+	else if( x <= 44)
 	{
-		cout << "You are not an adult. You're still a kid";
+		cout << "You E grade";
+	}
+	else if ( x <= 49)
+	{
+		cout << "D";
+	}
+	else if (x <= 59)
+	{
+		cout<< "C";
+	}
+	else if(  x <= 79)
+	{
+		cout<< "B";
+	}
+	else if ( x <=100)
+	{
+		cout << "A";
 	}
 }
 
